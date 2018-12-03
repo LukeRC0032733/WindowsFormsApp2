@@ -28,9 +28,9 @@ namespace WindowsFormsApp2
             string pi = "3.14159265";
             int i = int.Parse(s);
             double d = double.Parse(pi);
-            richTextBox1.AppendText(pi.ToString("N") + "\n");
-            richTextBox1.AppendText(pi.ToString("N3") + "\n");
-            richTextBox1.AppendText(pi.ToString("N0") + "\n");
+            richTextBox1.AppendText(d.ToString("N") + "\n");
+            richTextBox1.AppendText(d.ToString("N3") + "\n");
+            richTextBox1.AppendText(d.ToString("N0") + "\n"); 
 
         }
 
